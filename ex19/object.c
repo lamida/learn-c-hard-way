@@ -28,7 +28,7 @@ int Object_init(void *self)
 void *Object_move(void *self, Direction direction)
 {
     printf("You can't go that direction.\n");
-    return Null;
+    return NULL;
 }
 
 int Object_attack(void *self, int damage)
